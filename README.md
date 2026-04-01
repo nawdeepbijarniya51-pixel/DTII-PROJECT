@@ -2,53 +2,54 @@
 
 **AI-Powered Pothole Detection, Segmentation & Road Safety Intelligence Platform**
 
-Real-time pothole detection in **images, videos, live camera** using **YOLO Ultralytics**.  
-Building the future of smart road infrastructure in India.
+Real-time pothole detection and segmentation in **images, videos, and live camera** using **YOLO Ultralytics**. Building smarter and safer roads for India.
 
 ---
 
 ## 📖 About The Project
 
-PotholeGuard AI is a computer vision-based system that automatically **detects and segments potholes** on roads. Developed as a **DTII Project**, it is now being evolved into a full-fledged **startup solution** to reduce road accidents, help citizens avoid dangerous routes, and assist government/contractors in faster road maintenance.
+PotholeGuard AI is an intelligent computer vision system designed to automatically **detect and segment potholes** on Indian roads. Developed as a **DTII Project**, it aims to reduce road accidents by helping drivers avoid dangerous potholes and assisting authorities in efficient road maintenance.
 
-### Current Capabilities
-- High-accuracy **pothole detection + instance segmentation** using YOLO Ultralytics
-- Works on **single images, videos, and live webcam feed**
-- Modern, fast and responsive web interface (Vite + React + Tailwind)
+The system currently supports:
+- High-accuracy pothole **detection + instance segmentation** using YOLO Ultralytics
+- Works seamlessly on **single images**, **pre-recorded videos**, and **live webcam feed**
+- Clean, modern and fully responsive web interface
 
 ---
 
 ## 🚀 Future Vision (Startup Roadmap)
 
-- **Pothole Volume & Depth Estimation** (to calculate repair cost automatically)
-- **Interactive Map Integration**  
-  → User selects any location → System scans **2 km radius**
+We are evolving this project into a full-fledged **startup** with the following advanced features:
+
+- **Pothole Volume & Depth Estimation** (to automatically calculate repair cost)
+- **Smart Map Integration**  
+  → User clicks any location on map → System scans **2 km radius** around it
 - **Google Street View Analysis**  
-  → Automatically detects potholes in Street View images
-- **Risk Visualization** on map (size-based **red dots** so people can avoid bad roads)
-- Drone support for large-scale road inspection
-- Mobile app for drivers
+  → Automatically runs our trained model on Street View images to detect potholes
+- **Risk Visualization** on map using **size-based red dots** so people can easily avoid risky roads
+- Drone-based large-scale road inspection support
+- Mobile App for drivers
 
 ---
 
-## 💰 Business Model & Monetization
+## 💰 Business & Monetization Strategy
 
-We are building this as a **profitable startup** with the following revenue streams:
+We plan to monetize PotholeGuard AI through multiple revenue streams:
 
 1. **B2B Road Inspection Service**  
-   Contractors, PWD, Municipal Corporations & Smart City projects can use our AI + Drone solution for fast & low-cost road inspection with approximate repair cost estimation. *(Premium paid service)*
+   Road contractors, PWD departments, Municipal Corporations, and Smart City projects can use our AI + Drone solution for fast, accurate and cost-effective road inspection with approximate repair cost estimation. *(Premium paid service)*
 
-2. **Anonymized Mobility & Location Data** (with user consent)  
-   Sell valuable insights to businesses (e.g., if someone frequently visits bakeries, relevant brands can be suggested targeted offers).
+2. **Anonymized User Mobility Data** (with explicit user consent)  
+   Sell valuable location-based insights to businesses. For example, if a user frequently visits a bakery, relevant brands can show targeted offers.
 
-3. **Platform Advertising**  
-   Ads on web + mobile app.
+3. **In-App & Website Advertising**  
+   Display relevant ads on our web platform and future mobile application.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **AI Model**: YOLO Ultralytics (Segmentation)
+- **AI/ML**: YOLO Ultralytics (Object Detection + Segmentation)
 - **Frontend**: Vite + React + TypeScript + Tailwind CSS
 - **Backend**: Python
 - **Testing**: Playwright, Vitest
@@ -57,11 +58,11 @@ We are building this as a **profitable startup** with the following revenue stre
 
 ## 🚀 Quick Start
 
-
-# Clone the repo
+```bash
+# Clone the repository
 git clone https://github.com/nawdeepbijarniya51-pixel/DTII-PROJECT.git
 
-# Go inside
+# Navigate to project directory
 cd DTII-PROJECT
 
 # Install dependencies
@@ -69,24 +70,27 @@ npm install
 # or
 bun install
 
-# Start development server
+# Run the development server
 npm run dev
 
 📁 Project Structure
 textDTII-PROJECT/
-├── backend/          # Python + YOLO model scripts
-├── src/              # React + TypeScript frontend
+├── backend/          # Python scripts and YOLO model
+├── src/              # React + TypeScript frontend source
 ├── public/           # Static assets
+├── index.html
 ├── vite.config.ts
 ├── tailwind.config.ts
+├── package.json
 └── README.md
 
 🤝 Contributing
-Contributions are welcome! Feel free to open issues or pull requests.
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
 📄 License
-MIT License
+This project is licensed under the MIT License.
 
 👨‍💻 Author
 Nawdeep Bijarniya
-DTII Project → Future Startup for Safer Roads in India
-Made with ❤️ for better Indian roads
+DTII Project → Building safer roads for India
+Made with ❤️ for a pothole-free India
