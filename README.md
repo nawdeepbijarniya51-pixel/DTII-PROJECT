@@ -57,7 +57,7 @@ We are building this as a **profitable startup** with the following revenue stre
 
 ## 🚀 Quick Start
 
-```bash
+
 # Clone the repo
 git clone https://github.com/nawdeepbijarniya51-pixel/DTII-PROJECT.git
 
